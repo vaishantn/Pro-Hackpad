@@ -14,7 +14,7 @@ PCB Layout
 ## Bottom Case
 <img width="1381" height="785" alt="image" src="https://github.com/user-attachments/assets/6bdf4099-7b3c-44bc-b52f-183f8712524b" />
 
-Made with:
+# Made with:
 -KiCad
 -Autodesk Fusion
 -Python
