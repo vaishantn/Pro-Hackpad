@@ -22,12 +22,16 @@ The following table lists the components required to assemble the project.
 ## Bill of Materials (BOM)
 
 
-| Item | Qty | Description | Value | Assembly Method | Manufacturer | Supplier | Supplier Part Number |
-|---:|---:|---|---|---|---|---|---|
-| 1 | 2 | Addressable RGB LED, SK6812MINI, PLCC4 3535 package | SK6812MINI | SMD reflow / PCBA | OPSCO Optoelectronics | TME | SK6812MINI |
-| 2 | 1 | 0.91-inch 128x32 SSD1306 I2C OLED module with 4-pin header | SSD1306 OLED 128x32 | Manual module/header soldering | Not identified by supplier | ShillehTek | AA321 |
-| 3 | 4 | CHERRY MX1A-C1NW 1u PCB-mount mechanical keyswitch, soft tactile, clear stem | CHERRY MX1A-C1NW | THT soldering | CHERRY | Mouser Electronics | 540-MX1A-C1NW |
-| 4 | 1 | Seeed Studio XIAO RP2040 microcontroller module (standard version) | XIAO-RP2040 | Module soldering to carrier PCB | Seeed Studio | Seeed Studio | 102010428 |
+# Bill of Materials (BOM)
+
+The following table lists the components required to assemble Starbie.
+
+| Item | Qty | Description | Value | Manufacturer | Supplier |
+|---:|---:|---|---|---|---|
+| 1 | 2 | Addressable RGB LED, SK6812MINI, PLCC4 3535 package | SK6812MINI | OPSCO Optoelectronics | TME |
+| 2 | 1 | 0.91-inch 128x32 SSD1306 I2C OLED module with 4-pin header | SSD1306 OLED 128x32 | Not identified by supplier | ShillehTek |
+| 3 | 4 | CHERRY MX1A-C1NW 1u PCB-mount mechanical keyswitch, soft tactile, clear stem | CHERRY MX1A-C1NW | CHERRY | Mouser Electronics |
+| 4 | 1 | Seeed Studio XIAO RP2040 microcontroller module (standard version) | XIAO-RP2040 | Seeed Studio | Seeed Studio |
 
 # Made with:
 -KiCad
