@@ -18,12 +18,14 @@ PCB Layout
 
 The following table lists the components required to assemble the project.
 
-| Item | References | Qty | Description | Value | Manufacturer | Manufacturer Part Number | Supplier | Supplier Part Number |
-|---:|---|---:|---|---|---|---|---|---|
-| 1 | D1, D2 | 2 | Addressable RGB LED, SK6812MINI, PLCC4 3535 package | SK6812MINI | OPSCO Optoelectronics | SK6812MINI | TME | SK6812MINI |
-| 2 | J1 | 1 | 0.91-inch 128x32 SSD1306 I2C OLED module with 4-pin header | SSD1306 OLED 128x32 | Not identified by supplier | — | ShillehTek | AA321 |
-| 3 | SW1, SW2, SW3, SW4 | 4 | CHERRY MX1A-C1NW 1u PCB-mount mechanical keyswitch, soft tactile, clear stem | CHERRY MX1A-C1NW | CHERRY | MX1A-C1NW | Mouser Electronics | 540-MX1A-C1NW |
-| 4 | U1 | 1 | Seeed Studio XIAO RP2040 microcontroller module (standard version) | XIAO-RP2040 | Seeed Studio | 102010428 | Seeed Studio | 102010428 |
+## Bill of Materials (BOM)
+
+| Item | Qty | Description | Value | Footprint | Mounting Type | Assembly Method | DNP | Manufacturer | Supplier | Supplier Part Number |
+|---:|---:|---|---|---|---|---|---|---|---|---|
+| 1 | 2 | Addressable RGB LED, SK6812MINI, PLCC4 3535 package | SK6812MINI | LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm | SMD (PLCC4) | SMD reflow / PCBA | No | OPSCO Optoelectronics | TME | SK6812MINI |
+| 2 | 1 | 0.91-inch 128x32 SSD1306 I2C OLED module with 4-pin header | SSD1306 OLED 128x32 | footprint:SSD1306-0.91-OLED-4pin-128x32 | OLED module with 4-pin male header (THT interface) | Manual module/header soldering | No | Not identified by supplier | ShillehTek | AA321 |
+| 3 | 4 | CHERRY MX1A-C1NW 1u PCB-mount mechanical keyswitch, soft tactile, clear stem | CHERRY MX1A-C1NW | Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB | Through-hole PC pins / PCB mount | THT soldering | No | CHERRY | Mouser Electronics | 540-MX1A-C1NW |
+| 4 | 1 | Seeed Studio XIAO RP2040 microcontroller module (standard version) | XIAO-RP2040 | Seeed_Studio_XIAO_Series Library:XIAO-RP2040-DIP | Pre-built XIAO module; castellated / carrier-board footprint | Module soldering to carrier PCB | No | Seeed Studio | Seeed Studio | 102010428 |
 
 # Made with:
 -KiCad
